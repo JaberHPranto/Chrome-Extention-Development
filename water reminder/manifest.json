@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Water Reminder ⏱️",
+  "version": "1.0.0",
+  "description": "Reminds you to drink water",
+  "icons": {
+    "128": "./icons/128.png",
+    "48": "./icons/48.png",
+    "32": "./icons/32.png",
+    "16": "./icons/16.png"
+  },
+  "browser_action": {
+    "default_icon": "./icons/16.png",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["alarms", "notifications", "storage", "contextMenus"]
+}

@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#text {
+  color: skyblue;
+}
+
+#nameInput {
+  padding: 5px;
+}

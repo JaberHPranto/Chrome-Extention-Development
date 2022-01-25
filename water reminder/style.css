@@ -1,0 +1,10 @@
+body {
+  width: 300px;
+  padding: 10px;
+  background-color: skyblue;
+  text-align: center;
+}
+#num {
+  padding: 5px;
+  margin-bottom: 5px;
+}
