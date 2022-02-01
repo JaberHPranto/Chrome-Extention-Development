@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Hide History 🙄 ",
+  "version": "1.0.0",
+  "description": "Hide default history page of chrome web browser",
+  "chrome_url_overrides": {
+    "history": "myPage.html"
+  }
+}

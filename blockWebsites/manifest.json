@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Website Blocker 🚫",
+  "version": "1.0.0",
+  "description": "Block website from distraction",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/"],
+      "js": ["content.js"]
+    }
+  ]
+}

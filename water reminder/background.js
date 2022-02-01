@@ -22,7 +22,7 @@ chrome.alarms.onAlarm.addListener(function (alarm) {
   );
 });
 
-createAlarm();
+// createAlarm();
 
 // receiving data from content page
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {

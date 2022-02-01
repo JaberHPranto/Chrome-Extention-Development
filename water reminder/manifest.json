@@ -14,8 +14,9 @@
     "default_popup": "index.html"
   },
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "omniBox.js", "store.js"],
     "persistent": false
   },
+  "omnibox": { "keyword": "water" },
   "permissions": ["alarms", "notifications", "storage", "contextMenus"]
 }
