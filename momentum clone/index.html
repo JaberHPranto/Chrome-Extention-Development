@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Momentum Clone</title>
+  </head>
+  <body>
+    <div id="bg"></div>
+    <div class="container">
+      <div class="header">
+        <div class="weather-info">
+          <img src="" alt="" id="weather-icon" />
+          <div id="weather"></div>
+        </div>
+      </div>
+      <div class="center">
+        <div id="time"></div>
+        <div id="quote"></div>
+      </div>
+      <div class="footer">
+        <h2>What's your main goal for today 🎯</h2>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            name="newTask"
+            id="newTask"
+            required
+          />
+        </div>
+        <button id="addTask">Add ➕</button>
+        <div id="card">
+          <h2>Todo's 📝</h2>
+          <ul id="tasks"></ul>
+        </div>
+        <button id="todo">Todo's</button>
+      </div>
+    </div>
+
+    <script src="jQuery.js"></script>
+    <script src="backgroundImage.js"></script>
+    <script src="time.js"></script>
+    <script src="quote.js"></script>
+    <script src="weather.js"></script>
+    <script src="todos.js"></script>
+  </body>
+</html>
