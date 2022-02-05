@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Programming with Text",
+  "version": "1.0.0",
+  "description": "Learning ...",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["sketch.js"]
+    }
+  ]
+}
